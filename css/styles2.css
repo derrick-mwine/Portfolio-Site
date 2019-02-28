@@ -1,0 +1,505 @@
+/*
+ *
+ * Body
+ *
+ */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font: 25px "Marvel", sans-serif;
+    background-color: #C0C0C0;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+header {
+    background-color: #333;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    box-shadow: 0 0 20px 5px #666;
+}
+
+
+/*
+ *
+ * intro-box
+ *
+ */
+
+.first-box {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 560px;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.first-box img {
+    width: 1050px;
+    height: 550px;
+    margin-left: 60px;
+    margin-right: 60px;
+    top: 170px;
+    bottom: 170px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px #666;
+}
+
+
+/*
+ *
+ * text-box
+ *
+ */
+
+.second-box {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: auto;
+}
+
+
+/*
+ *
+ * featured_projects-box
+ *
+ */
+
+.third-box {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    border-top: 0px;
+    padding-top: 1px;
+}
+
+.web-analytics-box,
+.digital-marketing-box,
+.web-developement-box {
+    height: auto;
+    padding-bottom: 20px;
+    box-shadow: 0 0 20px 5px #666;
+    width: 320px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.web-analytics-box:hover,
+.digital-marketing-box:hover,
+.web-development-box:hover {
+    box-shadow: none;
+}
+
+.web-analytics-box {
+    grid-column: 1 / 2;
+    margin-right: 20px;
+    background-color: #C0C0C0;
+}
+
+.digital-marketing-box {
+    grid-column: 2 / 3;
+    margin-right: 20px;
+    background-color: #C0C0C0;
+}
+
+.web-development-box {
+    grid-column: 3 / 4;
+    background-color: #C0C0C0;
+}
+
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: #333;
+    margin-top: 30px;
+    box-shadow: 0 0 20px 5px #666;
+}
+
+footer p {}
+
+
+/*
+ *
+ * Title and text
+ *
+ */
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #5fbdd5;
+    letter-spacing: 0.1em;
+    margin-top: 15px;
+    font: 1.1em "Exo 2", sans-serif;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #f34299;
+    letter-spacing: 0.05em;
+    font: 300 0.9em "Exo 2", sans-serif;
+}
+
+h3 {
+    display: flex;
+    width: 100%;
+    color: #f34299;
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 10px 0 25px 0;
+    letter-spacing: 0.06em;
+    justify-content: center;
+    align-content: center;
+}
+
+h4 {
+    color: #FF1493;
+    margin: 10px 0 0 20px;
+    line-height: 1.2em;
+    letter-spacing: 0.05em;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1.3em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+    display: inline;
+    justify-content: flex-start;
+    align-content: flex-start;
+    color: #d2cdc1;
+    font-size: 0.65em;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    line-height: 1.0em;
+    width: 100%;
+    margin: 40px;
+    margin-top: 40px;
+}
+
+
+/*
+ *
+ * Images
+ *
+ */
+
+.link-img img {
+    opacity: 1;
+    width: 320px;
+    border-radius: 1px;
+    object-fit: cover;
+}
+
+.link-img img:hover {
+    opacity: 0.5;
+}
+
+
+/*
+ *
+ * Links
+ *
+ */
+
+.link-text {
+    color: #000080;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin-left: 20px;
+    line-height: 1.2em;
+    text-decoration: underline;
+}
+
+.link-text:hover {
+    color: #fff;
+}
+
+.link-copy {
+    color: #14a3b4;
+}
+
+
+/*
+ *
+ * logo in footer
+ *
+ */
+
+.logo-box {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+}
+
+.logo-box img {
+    opacity: 0.5;
+    height: 80px;
+    width: 250px;
+}
+
+.logo-box img:hover {
+    opacity: 1;
+}
+
+
+/*
+*
+* Responsive
+*
+*/
+
+@media only screen and (max-width: 768px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    .first-box {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-box img {
+        width: 600px;
+        height: 520px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 150px;
+        bottom: 20px;
+    }
+    .second-box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .third-box {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        width: 100%;
+        height: auto;
+    }
+    .web-analytics-box,
+    .digital-marketing-box,
+    .web-developement-box {
+        height: auto;
+        width: 200px;
+    }
+    .web-analytics-box {
+        grid-column: 1 / 2;
+    }
+    .digital-marketing-box {
+        grid-column: 2 / 3;
+    }
+    .web-development-box {
+        grid-column: 3 / 4;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+    }
+    footer p {
+        font-size: 0.5em;
+        font-weight: 700;
+        line-height: 1.2em;
+        width: 100%;
+        margin: 30px;
+    }
+    h1 {
+        font: 1.1em "Exo 2", sans-serif;
+    }
+    h2 {
+        font: 300 0.9em "Exo 2", sans-serif;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    h4 {
+        font-size: 1.1em;
+    }
+    p {
+        font-size: 25px;
+    }
+    footer p {
+        font-size: 0.65em;
+    }
+    .link-img img {
+        opacity: 1;
+        width: 200px;
+        object-fit: cover;
+    }
+    .link-img img:hover {
+        opacity: 0.5;
+    }
+    .link-text {
+        font-size: 0.9em;
+    }
+    .logo-box {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+    .logo-box img {
+        height: 80px;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        height: auto;
+    }
+    .first-box {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-box img {
+        width: 320px;
+        height: 390px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 150px;
+        bottom: 10px;
+    }
+    .second-box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .third-box {
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+    }
+    .web-analytics-box,
+    .digital-marketing-box,
+    .web-developement-box {
+        height: auto;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .web-analytics-box {
+        grid-column: 1 / 1;
+    }
+    .digital-marketing-box {
+        grid-column: 1 / 1;
+    }
+    .web-development-box {
+        grid-column: 1 / 1;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+    }
+    footer p {
+        font-size: 0.01em;
+        font-weight: 500;
+        line-height: 1.1em;
+        margin: 10px;
+    }
+    h1 {
+        font: 1.0em "Exo 2", sans-serif;
+    }
+    h2 {
+        font: 400 0.8em "Exo 2", sans-serif;
+    }
+    h3 {
+        font-size: 1.0em;
+    }
+    h4 {
+        font-size: 1.0em;
+    }
+    p {
+        font-size: 18px;
+    }
+    footer p {
+        font-size: 0.35em;
+    }
+    .link-img img {
+        opacity: 1;
+        width: 300px;
+        object-fit: cover;
+    }
+    .link-img img:hover {
+        opacity: 0.5;
+    }
+    .link-text {
+        font-size: 0.4em;
+    }
+    .logo-box {
+        display: flex;
+        justify-content: flex-end;
+        align-content: flex-end;
+    }
+    .logo-box img {
+        height: 40px;
+        width: 100px;
+    }
+}
